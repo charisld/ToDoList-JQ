@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="wrapper">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务清单</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/mian.css">
+</head>
+<body>
+    <header>
+        <img src="./images/set.png" class="set">
+        <div class="color">
+            <span class="blue chose"></span>
+            <span class="yellow"></span>
+            <span class="red"></span>
+        </div>
+       <ul class="kinds">
+            <li class="unfinish present">未完成</li>
+            <li class="finish">已完成</li>
+        </ul>
+    </header>
+    <section class="unf_list">
+        <div class="task">
+            <div class="taskWrap">
+            <img src="./images/one.png">
+            <p>任务一</p>
+            <button class="delete">删除</button>
+            <button class="done">完成</button>
+        </div>
+    </div>
+        <div class="task">
+            <div class="taskWrap">
+                <img src="./images/one.png">
+                <p>任务二</p>
+                <button class="delete">删除</button>
+                <button class="done">完成</button>
+            </div>
+         </div>
+    </section>
+    <section class="f_list">
+            <div class="task">
+                    <div class="taskWrap">
+                    <img src="./images/one.png">
+                    <p>已完成任务一</p>
+                    <button class="delete">删除</button>
+                    
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <img src="images/Add (2).png" alt="新增任务" class="add_task">
+        <div id="addTask">
+                <div class="title"><span>添加新任务</span></div>
+                <!-- <textarea rows="4" cols="40" id="text">Comments</textarea> -->
+                <input type="text" id="textarea" value="">
+                <button  class="left">返回</button>
+                <button class="right">确认</button>
+           
+        </div>
+    </footer>
+</div>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/mian.js"></script>
+</body>
+</html>

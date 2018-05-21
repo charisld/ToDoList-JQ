@@ -1,0 +1,185 @@
+#wrapper{
+    background:#062743;
+    height: 800px;
+    width: 1080px;
+    margin:0 auto;
+}
+header{
+    background: #113A5D;
+    height: 100px;
+    position: relative;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 0 16px;
+}
+header .color{
+    display: none;
+    width: 50px;
+    height: 150px;
+    margin:10px;
+}
+header .color span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin:10px;
+    border-radius: 50%;
+}
+.blue{
+    background:blue;
+}
+.chose{
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    border: 2px solid #fff;
+}
+.yellow{
+    background: yellow;
+}
+.red{
+    background: red;
+}
+header .kinds{
+    width: 60%;
+    margin:0 auto;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left:216px;
+}
+.kinds li{
+    display: inline-block;
+    width:30%;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+   
+}
+.present{
+     border-bottom: 2px solid #fff; 
+}
+
+.unf_list,.f_list{
+    width: 60%;
+    margin:30px auto;
+    background:#113A5D;
+}
+
+.f_list{
+    display: none;
+}
+.taskWrap::after{
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.task{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #FF7A8A;
+}
+
+.taskWrap{
+    width: 80%;
+    padding-top: 10px;
+    margin:0 auto;
+}
+
+.task img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.task p{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    margin-left:20px;
+    color: #333;
+    font-size:16px;
+    text-align: center;
+}
+.task button{
+    float: right;
+    width: 100px;
+    text-decoration:none;  
+    background:#2f435e;  
+    color:#f2f2f2;  
+    padding: 10px 30px 10px 30px; 
+    margin:10px; 
+    font-size:16px;  
+    font-weight:bold;  
+    border-radius:5px; 
+    border:none; 
+}
+
+footer{
+    /* background: #FC3C3C; */
+    height: 200px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right:10%;
+}
+
+#addTask{
+    display: none;
+    background: #F9F9F9;
+    width: 400px;
+    height: 300px;
+    color:#062743;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin: -150px 0 0 -200px;
+
+}
+#addTask .title{
+    height: 110px;
+    background: url(../images/cat.bg.jpg);
+    position: relative;
+}
+#addTask .title span{
+    display: block;
+    height: 20px;
+    width: 100%;
+    background: #113A5D;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+
+}
+#addTask #textarea{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 0;
+    font-size: 20px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+
+#addTask button{
+    background:#113A5D;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    border:none;
+    margin: 10px;
+}
